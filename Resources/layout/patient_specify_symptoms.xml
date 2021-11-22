@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@android:color/holo_blue_bright"
+    android:background="#ff000000"
+    android:layout_margin="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom=""
+            android:gravity="center"
+            android:paddingTop="5px"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:text="Specify Symptoms"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:text="Tap every options you have experienced as of the moment" />
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/darker_gray"
+        android:background="#ff000000">
+        <CheckBox
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:checked="true"
+            android:text="Headache"
+            android:id="@+id/radioButton1"
+            android:textSize="28dp"
+            />
+        <CheckBox
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Fever"
+            android:id="@+id/radioButton2"
+            android:textSize="28dp"/>
+        <CheckBox
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:checked="true"
+            android:text="Shortness of breath"
+            android:id="@+id/radioButton3"
+            android:textSize="28dp"/>
+        <CheckBox
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Cough"
+            android:id="@+id/radioButton4"
+            android:textSize="28dp"/>
+         <Button
+            android:layout_marginTop="30dp"
+            android:text="Save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="28dp"
+            android:id="@+id/btnLogIn"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="@android:color/black"
+            android:backgroundTint="@android:color/holo_green_light"/>
+        
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/g5"
+            android:orientation="vertical" 
+            android:backgroundTint="@android:color/white"
+            android:background="#ff000000"
+            android:layout_below="@+id/g4"
+            android:layout_margin="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:textColor="@android:color/black"
+                android:text="Doctor's Remarks"/>
+             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:textColor="@android:color/holo_red_light"
+                android:text="Stay in the isolation area for the remaining days until the fever is cured." />
+        </LinearLayout>
+</LinearLayout>

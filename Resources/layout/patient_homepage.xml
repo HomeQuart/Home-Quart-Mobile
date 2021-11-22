@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@android:color/holo_blue_bright"
+    android:background="#ff000000"
+    android:layout_margin="10dp">
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="216.6dp"
+            android:layout_height="80dp"
+            android:src="@drawable/homequartbanner"
+            android:id="@+id/banner"
+            android:layout_gravity="center"/>
+        <ImageButton
+            android:src="@drawable/home"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/btnNotification"
+            android:gravity="center"
+            android:layout_margin="5dp" />
+        <ImageButton
+            android:src="@drawable/profileicon"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/btnProfile"
+            android:background="@drawable/profileicon"
+            android:layout_margin="5dp" />
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_margin="10dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:background="#ff000000"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp">
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="49.5dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:id="@+id/username"
+            android:gravity="center"
+            android:textSize="40dp"
+            android:hint="Quarantine Period"
+            android:textColorHint="@android:color/black"
+            android:textStyle="italic"
+            android:background="@android:color/white"/>
+    </LinearLayout>
+    <Button
+        android:text="Swab Test Result"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:id="@+id/btnSwabTestResult"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="0.0dp" />
+    <Button
+        android:text="Quarantine Information"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:id="@+id/btnQuarantineInformation"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="0.0dp" />
+    <Button
+        android:text="Send Temperature Report"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:id="@+id/btnSendTemperature"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="0.0dp" />
+    <Button
+        android:text="Temperature Progress"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:id="@+id/btnTemperature Progress"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="0.0dp" />
+    <Button
+        android:text="Specify Symptoms"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:id="@+id/btnSpecifySymptoms"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="0.0dp" />
+    <Button
+        android:text="Recommended Medicines"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:id="@+id/btnRecommendedMedicines"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="0.0dp" />
+    <Button
+        android:text="Contact Helpline"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:id="@+id/btnContactHelpline"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="0.0dp" />
+</LinearLayout>

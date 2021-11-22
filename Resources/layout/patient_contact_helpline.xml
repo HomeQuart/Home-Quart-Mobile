@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@android:color/holo_blue_bright"
+    android:background="#ff000000"
+    android:layout_margin="10dp">
+        <LinearLayout
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/white"
+                android:background="#ff000000">
+       
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="30dp"
+                android:textColor="@android:color/black"
+                android:text="Contact Helpline" />
+        <TextView
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30dp"
+                android:textColor="@android:color/black"
+                android:text="Contact Person:"/>
+        <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="30dp"
+                android:textColor="@android:color/black"
+                android:text="09123456789"
+                android:backgroundTint="@android:color/darker_gray"
+                android:background="#ff000000"/>
+        <TextView
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30dp"
+                android:textColor="@android:color/black"
+                android:text="Barangay Hotline"/>
+        <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="30dp"
+                android:textColor="@android:color/black"
+                android:text="09123456789"
+                android:backgroundTint="@android:color/darker_gray"
+                android:background="#ff000000"/>
+        <TextView
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30dp"
+                android:textColor="@android:color/black"
+                android:text="Municipal Emergency:"/>
+        <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="30dp"
+                android:textColor="@android:color/black"
+                android:text="09123456789"
+                android:backgroundTint="@android:color/darker_gray"
+                android:background="#ff000000"/>
+        <TextView
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="30dp"
+                android:textColor="@android:color/black"
+                android:text="Municipal Hospital:"/>
+        <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="30dp"
+                android:textColor="@android:color/black"
+                android:text="09123456789"
+                android:backgroundTint="@android:color/darker_gray"
+                android:background="#ff000000"/>
+</LinearLayout>
+</LinearLayout>
